@@ -1,6 +1,6 @@
 # EmptyEpsilon UI themes
 
-Theme contents for EmptyEpsilon. Copy or symlink into `EmptyEpsilon/resources/gui/`.
+Theme contents for [daid/EmptyEpsilon](https://github.com/daid/EmptyEpsilon). Copy or symlink into `EmptyEpsilon/resources/gui/`.
 
 ## Corners
 
