@@ -1,0 +1,42 @@
+[base] {
+    inherit: corners
+
+    # Economica font variant of the corners theme
+    # Only font paths are overridden; all other properties inherited from corners
+
+    font: gui/themes/corners/fonts/economica/Economica-Regular.ttf
+
+    [bold] {
+        font: gui/themes/corners/fonts/economica/Economica-Bold.ttf
+    }
+
+    [radar] {
+        font: gui/themes/corners/fonts/economica/Economica-Bold.ttf
+        [radar.range_indicators] {
+            font: gui/themes/corners/fonts/economica/Economica-Bold.ttf
+        }
+        [radar.sector_grid] {
+            font: gui/themes/corners/fonts/economica/Economica-Bold.ttf
+        }
+    }
+
+    [textbox] {
+        [textbox.front] {
+            font: gui/themes/corners/fonts/economica/Economica-Regular.ttf
+        }
+    }
+
+    [keyvalue] {
+        [keyvalue.value] {
+            font: gui/themes/corners/fonts/economica/Economica-Bold.ttf
+        }
+    }
+
+    [overlay] {
+        font: gui/themes/corners/fonts/economica/Economica-Bold.ttf
+    }
+
+    [scrollingbanner] {
+        font: gui/themes/corners/fonts/economica/Economica-Bold.ttf
+    }
+}

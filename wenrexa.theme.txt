@@ -1,0 +1,28 @@
+[base] {
+    inherit: default
+
+    # Wenrexa theme - custom button and panel images
+    # All other properties inherited from default
+
+    [background] {
+        color: #1F252D
+    }
+
+    [button] {
+        [button.back] {
+            image: gui/themes/wenrexa/Button04.png
+            image.hover: gui/themes/wenrexa/Button02.png
+            image.disabled: gui/themes/wenrexa/Button03.desaturated.png
+
+            [button.toggle.on.back] {
+                image: gui/themes/wenrexa/Button02.invert.png
+                image.hover: gui/themes/wenrexa/Button02.invert.png
+                image.disabled: gui/themes/wenrexa/Button02.desaturated.png
+            }
+        }
+    }
+
+    [panel] {
+        image: gui/themes/wenrexa/Button01.png
+    }
+}

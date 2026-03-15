@@ -1,0 +1,64 @@
+# Neu5land font variant of the corners theme
+# Only font paths are overridden; all other properties inherited from corners
+
+[base] {
+    inherit: corners
+
+    font: gui/themes/corners/fonts/neu5land/N5L_Norm.ttf
+
+    [bold] {
+        font: gui/themes/corners/fonts/neu5land/N5L_Fett.ttf
+    }
+
+    [radar] {
+        font: gui/themes/corners/fonts/neu5land/N5L_Fett.ttf
+        [radar.range_indicators] {
+            font: gui/themes/corners/fonts/neu5land/N5L_Fett.ttf
+        }
+        [radar.sector_grid] {
+            font: gui/themes/corners/fonts/neu5land/N5L_Fett.ttf
+        }
+    }
+
+    [ship_waypoint] {
+        [ship_waypoint.text] {
+            font: gui/themes/corners/fonts/neu5land/N5L_Fett.ttf
+        }
+    }
+
+    [button] {
+        [button.front] {
+            [button.toggle.on.front] {
+                font: gui/themes/corners/fonts/neu5land/N5L_Fett.ttf
+            }
+        }
+    }
+
+    [keyvalue] {
+        [keyvalue.value] {
+            font: gui/themes/corners/fonts/neu5land/N5L_Fett.ttf
+        }
+    }
+
+    [listbox] {
+        [listbox.front] {
+            [listbox.selected.front] {
+                font: gui/themes/corners/fonts/neu5land/N5L_Fett.ttf
+            }
+        }
+    }
+
+    [overlay] {
+        font: gui/themes/corners/fonts/neu5land/N5L_Fett.ttf
+    }
+
+    [selector] {
+        [selector.front] {
+            font: gui/themes/corners/fonts/neu5land/N5L_Fett.ttf
+        }
+    }
+
+    [scrollingbanner] {
+        font: gui/themes/corners/fonts/neu5land/N5L_Fett.ttf
+    }
+}

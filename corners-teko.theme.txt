@@ -1,0 +1,80 @@
+# Teko font variant of the Corners theme.
+# Only font paths are overridden; all other properties inherited from corners
+
+[base] {
+    inherit: corners
+
+    font: gui/themes/corners/fonts/teko/Teko-Light.ttf
+    offset: -2.0
+
+    [bold] {
+        font: gui/themes/corners/fonts/teko/Teko-Bold.ttf
+    }
+
+    [radar] {
+        font: gui/themes/corners/fonts/teko/Teko-Bold.ttf
+
+        [radar.range_indicators] {
+            # Font and font size.
+            font: gui/themes/corners/fonts/teko/Teko-Bold.ttf
+        }
+        [radar.sector_grid] {
+            # Font and font size.
+            font: gui/themes/corners/fonts/teko/Teko-Bold.ttf
+        }
+    }
+
+    [ship_waypoint] {
+        [ship_waypoint.text] {
+            font: gui/themes/corners/fonts/teko/Teko-Bold.ttf
+        }
+    }
+
+    [button] {
+        [button.front] {
+            [button.toggle.on.front] {
+                font: gui/themes/corners/fonts/teko/Teko-Medium.ttf
+            }
+        }
+    }
+
+    [label] {
+        [label.front] {
+            font: gui/themes/corners/fonts/teko/Teko-Medium.ttf
+        }
+    }
+
+    [textentry] {
+        [textentry.front] {
+            font: gui/themes/corners/fonts/teko/Teko-Regular.ttf
+        }
+    }
+
+    [keyvalue] {
+        [keyvalue.value] {
+            font: gui/themes/corners/fonts/teko/Teko-Bold.ttf
+        }
+    }
+
+    [listbox] {
+        [listbox.front] {
+            [listbox.selected.front] {
+                font: gui/themes/corners/fonts/teko/Teko-Medium.ttf
+            }
+        }
+    }
+
+    [overlay] {
+        font: gui/themes/corners/fonts/teko/Teko-Medium.ttf
+    }
+
+    [selector] {
+        [selector.front] {
+            font: gui/themes/corners/fonts/teko/Teko-Regular.ttf
+        }
+    }
+
+    [scrollingbanner] {
+        font: gui/themes/corners/fonts/teko/Teko-Bold.ttf
+    }
+}
