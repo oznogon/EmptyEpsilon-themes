@@ -152,12 +152,21 @@
                 color: #FF0000
                 color.disabled: #A08080
             }
+            [button.dockingbay_scramble.back] {
+                color: #FF0000
+                color.disabled: #A08080
+            }
             [button.toggle.off.back] {
             }
             [button.toggle.on.back] {
                 image: gui/widget/ButtonBackground.active.png
                 image.hover: gui/widget/ButtonBackground.active.png
                 image.disabled: gui/widget/ButtonBackground.active.png
+
+                [button.dockingbay_scramble.on.back] {
+                    color: #FF0000
+                    color.disabled: #A08080
+                }
             }
         }
         [button.front] {
@@ -173,10 +182,20 @@
                 color.active: #120000
                 color.disabled: #FF00004D
             }
+            [button.dockingbay_scramble.front] {
+                color: #FF0000
+                color.active: #120000
+                color.disabled: #FF00004D
+            }
             [button.toggle.off.front] {
             }
             [button.toggle.on.front] {
                 color: #120A00
+
+                [button.dockingbay_scramble.on.front] {
+                    color: #000000
+                    color.disabled: #FF00004D
+                }
             }
         }
         [button.arrow] {
