@@ -103,7 +103,7 @@
             font: gui/fonts/BigShouldersDisplay-ExtraBold.ttf
             size: 30.0
             # Main grid line alpha; subsector line alpha is half of this.
-            color: #404040FF
+            color: #FFFFFF55
         }
     }
 
