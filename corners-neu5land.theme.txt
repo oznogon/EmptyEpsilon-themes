@@ -5,6 +5,7 @@
     inherit: corners
 
     font: gui/themes/corners/fonts/neu5land/N5L_Norm.ttf
+    font_offset: -1.0
 
     [bold] {
         font: gui/themes/corners/fonts/neu5land/N5L_Fett.ttf

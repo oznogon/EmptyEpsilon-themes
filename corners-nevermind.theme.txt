@@ -5,7 +5,7 @@
     inherit: corners
 
     font: gui/themes/corners/fonts/nevermind/NeverMindDisplayExtraCondensed-Light.ttf
-    offset: -1.0
+    font_offset: -1.0
 
     [bold] {
         font: gui/themes/corners/fonts/nevermind/NeverMindDisplayUltraCondensed-Bold.ttf

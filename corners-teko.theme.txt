@@ -5,7 +5,7 @@
     inherit: corners
 
     font: gui/themes/corners/fonts/teko/Teko-Light.ttf
-    offset: -2.0
+    font_offset: -1.0
 
     [bold] {
         font: gui/themes/corners/fonts/teko/Teko-Bold.ttf

@@ -5,6 +5,7 @@
     # Only font paths are overridden; all other properties inherited from corners
 
     font: gui/themes/corners/fonts/cornerita/Cornerita Thin.ttf
+    font_offset: -1.0
 
     [bold] {
         font: gui/themes/corners/fonts/cornerita/Cornerita Bold.ttf

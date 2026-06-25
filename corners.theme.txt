@@ -481,6 +481,30 @@
         color: #FFFFFF
     }
 
+    # GuiEntityInfoPanel
+    [entityinfopanel] {
+        color: #ffffff
+        size: 25.0
+        [entityinfopanel.back] {
+            image: gui/themes/corners/widget/PanelBackground.png
+            image.hover: gui/themes/corners/widget/ButtonBackground.normal.hover.png
+            image.disabled: gui/themes/corners/widget/PanelBackground.png
+
+            [entityinfopanel.selected.back] {
+                image: gui/themes/corners/widget/ButtonBackground.toggle.on.png
+                image.hover: gui/themes/corners/widget/ButtonBackground.toggle.on.hover.png
+                image.disabled: gui/themes/corners/widget/PanelBackground.png
+            }
+        }
+        [entityinfopanel.front] {
+            color.disabled: #FFFFFF4D
+
+            [entityinfopanel.selected.front] {
+                color: #000000
+            }
+        }
+    }
+
     # GuiSignalQualityIndicator
     [signalquality] {
         image: gui/themes/corners/widget/PanelBackground.png

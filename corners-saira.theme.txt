@@ -5,7 +5,7 @@
     inherit: corners
 
     font: gui/themes/corners/fonts/saira/SairaExtraCondensed-Medium.ttf
-    offset: -7.0
+    font_offset: -7.0
 
     [bold] {
         font: gui/themes/corners/fonts/saira/SairaExtraCondensed-ExtraBold.ttf

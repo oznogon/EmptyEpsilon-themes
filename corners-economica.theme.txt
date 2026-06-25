@@ -1,10 +1,11 @@
+# Neu5land font variant of the corners theme
+# Only font paths are overridden; all other properties inherited from corners
+
 [base] {
     inherit: corners
 
-    # Economica font variant of the corners theme
-    # Only font paths are overridden; all other properties inherited from corners
-
     font: gui/themes/corners/fonts/economica/Economica-Regular.ttf
+    font_offset: -1.0
 
     [bold] {
         font: gui/themes/corners/fonts/economica/Economica-Bold.ttf
@@ -20,9 +21,17 @@
         }
     }
 
-    [textbox] {
-        [textbox.front] {
-            font: gui/themes/corners/fonts/economica/Economica-Regular.ttf
+    [ship_waypoint] {
+        [ship_waypoint.text] {
+            font: gui/themes/corners/fonts/economica/Economica-Bold.ttf
+        }
+    }
+
+    [button] {
+        [button.front] {
+            [button.toggle.on.front] {
+                font: gui/themes/corners/fonts/economica/Economica-Bold.ttf
+            }
         }
     }
 
@@ -32,8 +41,22 @@
         }
     }
 
+    [listbox] {
+        [listbox.front] {
+            [listbox.selected.front] {
+                font: gui/themes/corners/fonts/economica/Economica-Bold.ttf
+            }
+        }
+    }
+
     [overlay] {
         font: gui/themes/corners/fonts/economica/Economica-Bold.ttf
+    }
+
+    [selector] {
+        [selector.front] {
+            font: gui/themes/corners/fonts/economica/Economica-Bold.ttf
+        }
     }
 
     [scrollingbanner] {
