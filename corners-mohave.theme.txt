@@ -1,3 +1,4 @@
+# display_name: Corners: Mohave
 # Mohave font variant of the Corners theme.
 # Only font paths are overridden; all other properties inherited from corners
 

@@ -1,3 +1,4 @@
+# display_name: Corners: Neu5land
 # Neu5land font variant of the corners theme
 # Only font paths are overridden; all other properties inherited from corners
 

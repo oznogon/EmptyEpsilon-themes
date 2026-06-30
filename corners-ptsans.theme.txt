@@ -1,4 +1,5 @@
-# Iosevka font variant of the corners theme
+# display_name: Corners: PT Sans
+# PT Sans font variant of the corners theme
 # Only font paths are overridden; all other properties inherited from corners
 
 [base] {

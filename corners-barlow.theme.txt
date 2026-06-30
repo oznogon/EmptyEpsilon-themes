@@ -1,3 +1,4 @@
+# display_name: Corners: Barlow Condensed
 # Barlow Condensed font variant of the corners theme
 # Only font paths are overridden; all other properties inherited from corners
 
